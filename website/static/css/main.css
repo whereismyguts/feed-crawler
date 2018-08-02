@@ -1,0 +1,90 @@
+body{
+    font-family: roboto
+}
+ul{
+    list-style: none
+}
+iframe{
+    width: 500px;
+}
+#app ul, #app li{
+    margin: 0;
+    padding: 0;
+}
+#app li.post-preview{
+    width: 100%;
+    margin-bottom: 60px;
+    border-bottom: 3px solid #555;
+    padding-bottom: 60px;
+}
+#app li.tag{
+    margin-right: 3px;
+}
+#app li.tag a{
+    color: #000 !important;
+    border-radius: 2px;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#app .post-header{
+    width: 100%;
+    height: 40px;
+}
+ul.tags{
+    float: right;
+}
+ul.date{
+    float: left;
+}
+#app li.tag{
+    display: inline-block;
+}
+.post, #app {
+    width: 60%;
+    min-width: 600px;
+    margin: 10px auto 10px auto;
+    padding: 0px 50px;
+    
+    border-left: 3px solid #555;
+    /*border-right: 2px solid #777; */
+    text-align: left;
+    word-wrap: break-word;
+    /* background:  #eee; */
+    margin-left: 10%;
+}
+.post img, #app img{
+    border-bottom: 3px solid #555;
+    border-radius: 3px;
+}
+.post img, #app img{
+    width: 100%;
+    min-width: 450px;
+    height: auto;
+}
+iframe{
+    width: 100%;
+    min-width: 450px;
+}
+.main{
+    float: left;
+}
+.extra{
+    position: fixed;
+    right: 0px;
+    background: #eee;
+    margin: 20px;
+    width: 20%;
+    min-width: 200px;
+    height: 70%;
+}
+h1{
+    border-right: 3px solid #555;
+    padding: 10px;
+}
+@media screen and (max-width: 700px) {
+    .extra{
+      display: none;
+    }
+  }
+  
