@@ -21,7 +21,7 @@ from .crawler import CrawlManager
 def exithandler():
     CrawlManager().stop()
 atexit.register(exithandler)    
-CrawlManager().start()
+#CrawlManager().start()
 
 
 
