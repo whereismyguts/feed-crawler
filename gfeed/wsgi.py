@@ -17,10 +17,10 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gfeed.settings")
 
 application = get_wsgi_application()
 
-from .crawler import CrawlManager
-def exithandler():
-    CrawlManager().stop()
-atexit.register(exithandler)    
+#from .crawler import CrawlManager
+#def exithandler():
+    #CrawlManager().stop()
+#atexit.register(exithandler)    
 #CrawlManager().start()
 
 
