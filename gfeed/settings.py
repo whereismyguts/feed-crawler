@@ -31,7 +31,9 @@ SECRET_KEY = '7q8x-zl01$n&97=c^_%z%nxs_lcivhqfjzo+c9%t32ang3w^&u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "g-feed.herokuapp.com",
+]
 
 
 # Application definition
